@@ -63,7 +63,8 @@
                 // alert('비밀번호와 체크 비밀번호를 확인해 주세요.');
                 join_msg_upw.innerHTML='비밀번호와 체크 비밀번호를 확인해 주세요.';
                 e.preventDefault();
-            }  if (!nmRegex.test(nm)) {
+            }
+            if (!nmRegex.test(nm)) {
                 // alert("이름은 한글조합으로 2~5글자로 작성해주세요.");
                 join_msg_nm.innerHTML="이름은 한글조합으로 2~5글자로 작성해주세요.";
                 e.preventDefault();
@@ -114,6 +115,13 @@
             const join_msg_upw = joinFrmElem.querySelector('#join_msg_upw');
             join_msg_upw.innerText = '';
         });
+
+       
+        document.querySelector('#upw-chk').addEventListener('keyup',() => {
+            const join_msg_upw = joinFrmElem.querySelector('#join_msg_upw');
+            join_msg_upw.innerText = '';
+        });
+
 
         joinFrmElem.nm.addEventListener('keyup',() => {
             const join_msg_nm = joinFrmElem.querySelector('#join_msg_nm');

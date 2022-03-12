@@ -70,7 +70,7 @@ public class CsCenterController {
                 attr.addFlashAttribute(Const.MSG, ERR_5);
                 return "redirect:/cscenter/complaint";
             default:
-                return "redirect:/cscenter";
+                return "redirect:/main";
         }
 
 

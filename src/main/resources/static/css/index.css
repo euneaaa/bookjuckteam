@@ -193,6 +193,7 @@ footer { background-color: lightslategray; display: flex; justify-content: cente
 .back_color_grey4 {background-color: #e8e8e8;}
 .back_color_white {background-color: white;}
 .back_color_green {background-color: #daefe0;}
+.back_color_done{background-color: #7271ce; color: white;}
 .back_color_footer { background-color: #f2f2f2; }
 
 /* color */

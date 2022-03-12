@@ -96,10 +96,12 @@
 
                     suckey.innerHTML="이메일 인증 성공하였어요.";
 
+
                     //여기가 서브밋 변경부분
                     changeSubmit.type = 'submit';
                     changeSubmit.classList.remove("btn_back_color");
-                    changeSubmit.classList.add("back_color_blue");
+                    changeSubmit.classList.add("back_color_done");
+
 
 
                 } else {
@@ -176,7 +178,7 @@
                 })
                 changeSubmit.type = 'submit';
                 changeSubmit.classList.remove("btn_back_color");
-                changeSubmit.classList.add("back_color_blue");
+                changeSubmit.classList.add("back_color_done");
             })
         }
 
